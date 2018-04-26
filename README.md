@@ -17,7 +17,8 @@ vos collègues et en profiter !
 
 ## Mise en place
 Tout d'abord, vous devez vous débrouiller pour importer les données dans un
-système de gestion de base de données (SGBD) tel que mysql.
+système de gestion de base de données (SGBD) tel que mysql. Toutes les options
+vous sont ouvertes.
 
 ## Informations à récolter
 
@@ -29,11 +30,19 @@ système de gestion de base de données (SGBD) tel que mysql.
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
    affichant uniquement les 10 premiers ?
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient `ojo` ?
+1. Quelles sont les 10 personnes les plus jeunes ? Et les plus agées ?
+1. Votre designer travail sur les cartes de membre et il a besoin de savoir
+   quelles sont les 5 personnes avec les plus longs prénoms et les plus longs
+   noms.
+1. Ne sachant encore pas exactement la manière dont le layout des cartes de
+   membres sera organisé, il aimerait également savoir qui sont les 3 personnes
+   qui ont, mis ensemble, la pair nom + prénom la plus longue.
 
 ### Invitations
-1. Pour l'ouverture, vous désirez lister tous le membres de plus de 18 ans
-  a. et de moins de 60 ans
-  a. qui ont une addresse email valide
+1. Pour l'ouverture, vous désirez lister tous le membres de plus de 18 ans,
+  a. et de moins de 60 ans,
+  a. qui ont une addresse email valide.
+1. Pour faciliter la lecture vous ajoutez une colonne `age` dans votre requête.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
    votre client email.
@@ -52,10 +61,13 @@ système de gestion de base de données (SGBD) tel que mysql.
 1. Vous avez remarqué que la table `countries.sql` contient une colonne `tld`.
    Trouvez un moyen d'afficher le nom du pays en anglais en fonction du `tld` de
    l'adresse email de la personne.
-1. Pourrait-on afficher "Country unkown" si l'email est vide ou que le `tld` ne
+1. Pourrait-on afficher "Country Unkown" si l'email est vide ou que le `tld` ne
    match aucun pays ?
+1. XXX
 
 ### Vue
-1. Pour faciliter vos futurs requêtes, vous créer une vue qui contient les
+1. Pour faciliter vos futurs requêtes, vous créer une vue `dojo-vue` qui contient les
    colonnes suivantes:
-    ...
+    * Toutes les informations de la table `dojo-people`;
+    * Une colonne `age`;
+    * Une colonne formatée avec `Prénom Nom` (i.c. majuscules).
