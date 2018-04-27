@@ -13,6 +13,10 @@ Afin que d'autres personnes puissent faire de même, vous devez noter toutes les
 cloné le dépôt et ainsi vous pourrez également voir les démarches effectuées par
 vos collègues et en profiter !
 
+La documentation officielle de MySQL se trouve
+[ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
+[StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également sérvir.
+
 # Etapes
 
 ## Mise en place
