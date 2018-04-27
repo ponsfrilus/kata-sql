@@ -18,7 +18,7 @@ vos collègues et en profiter !
 ## Mise en place
 Tout d'abord, vous devez vous débrouiller pour importer les données dans un
 système de gestion de base de données (SGBD) tel que mysql. Toutes les options
-vous sont ouvertes. Vous créez également un [schema.png](schema.png) de votre
+vous sont ouvertes. Vous créez également un [schema.jpg](schema.png) de votre
 base de donnée.
 
 ## Informations à récolter
