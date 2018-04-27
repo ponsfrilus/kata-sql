@@ -8,10 +8,10 @@ ouvrira prochainement ses portes. Vous avez récupéré des listes de personnes 
 format SQL et dans le but d'exercer vos talents de marketing, vous avez besoin
 d'en extraire des informations pertinantes.
 
-Afin que d'autres personnes puissent faire de même, vous devez noter toutes les
-étapes dans le fichier [HowTo.md](HowTo.md). Dans un monde idéal, vous avez
-cloné le dépôt et ainsi vous pourrez également voir les démarches effectuées par
-vos collègues et en profiter !
+Afin que d'autres personnes puissent faire de même, __vous devez noter toutes
+les étapes dans le fichier [HowTo.md](HowTo.md)__. Dans un monde idéal, vous
+avez __cloné le dépôt__ et ainsi vous pourrez également voir les démarches
+effectuées par vos collègues et en profiter !
 
 La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
@@ -20,7 +20,7 @@ La documentation officielle de MySQL se trouve
 # Etapes
 
 ## Mise en place
-Tout d'abord, vous devez vous débrouiller pour importer les données dans un
+Tout d'abord, vous devez vous débrouiller pour __importer les données__ dans un
 système de gestion de base de données (SGBD) tel que mysql. Toutes les options
 vous sont ouvertes. Vous créez également un [schema.jpg](schema.png) de votre
 base de donnée.
