@@ -1,5 +1,6 @@
 # EPFL Dojo - Requêtes SQL
-Le but est d'avoir un exercice permettant de pratiquer des requêtes SQL sur des tables pré-définies.
+Le but est d'avoir un exercice permettant de pratiquer des requêtes SQL sur des
+tables pré-définies.
 
 ## Concept
 Vous êtes responsable de la communication de la discothèque "HelloDojo" qui
@@ -23,14 +24,16 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 
 ### Générales
 1. Pour commencer, vous désirez connaître le nombre de personnes que vous avez
-   dans votre base de données (`dojo-people`).
+   dans votre base de données (`people`).
 1. Il y a-t-il des doublons ?
 1. Comment les trier par ordre alphabétique croissant sur le nom de famille ?
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
    affichant uniquement les 10 premiers ?
-1. Comment trouver les personnes qui ont un prénom ou un nom qui contient `ojo` ?
+1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
+   `ojo` ?
 1. Quelles sont les 10 personnes les plus jeunes ? Et les plus agées ?
-1. Comment peut-on trouver la moyenne d'age des personnes présentent dans la table ?
+1. Comment peut-on trouver la moyenne d'age des personnes présentes dans la
+   table ?
 1. Votre designer travail sur les cartes de membre et il a besoin de savoir
    quelles sont les 5 personnes avec les plus longs prénoms et les plus longs
    noms.
@@ -46,7 +49,7 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
    votre client email.
-1. Avec les informations contenues dans la table `dojo-people`, pourrait-on
+1. Avec les informations contenues dans la table `people`, pourrait-on
    approximer le nombre de personnes habitant en Suisse ?
 
 ### Countries
@@ -58,16 +61,21 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
    en anglais lorsque le site sera traduit ?
 
 ### Jointure
+1. En utilisant la table de jointure `countries_people.sql`, lister les
+   personnes habitant en Suisse.
+1. De la même manière, lister les personnes qui n'habitent pas en Suisse.
+1. Comment lister les personnes qui habitent dans les pays limitrophe de la
+   Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
 1. Vous avez remarqué que la table `countries.sql` contient une colonne `tld`.
    Trouvez un moyen d'afficher le nom du pays en anglais en fonction du `tld` de
    l'adresse email de la personne.
 1. Pourrait-on afficher "Country Unkown" si l'email est vide ou que le `tld` ne
    match aucun pays ?
-1. XXX
 
 ### Vue
 1. Pour faciliter vos futurs requêtes, vous créer une vue `dojo-vue` qui contient les
    colonnes suivantes:
     * Toutes les informations de la table `dojo-people`;
     * Une colonne `age`;
-    * Une colonne formatée avec `Prénom Nom` (i.c. majuscules).
+    * Une colonne formatée avec `Prénom Nom` (i.c. majuscules);
+    * Une colonne avec le nom du pays en Français.
