@@ -1,13 +1,15 @@
 # HelloDojo Marketing
 
-Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies 
+Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies
 pour réaliser les demandes du [README.md](README.md).
 
 ## Mise en place
-Voici les étapes que j'ai suivies pour installer XXX et importer les tables.
-e.g. `CREATE SCHEMA `kata-sql` DEFAULT CHARACTER SET utf8mb4 ;`
-J'ai choisi d'utiliser XXX comme client de base de donnée.
-J'ai généré le schéma avec XXX:
+Voici les étapes que j'ai suivies pour installer MySQL et importer les tables
+  * Installation des outils: `sudo apt install mysql-server mysql-client mysql-workbench`
+  * Création de la DB: `CREATE SCHEMA kata-sql DEFAULT CHARACTER SET utf8mb4;`
+  * Utilisation de la fonction d'import pour créer les 3 tables.
+J'ai choisi d'utiliser [MySQL Workbench](https://www.mysql.com/products/workbench/) comme client de base de donnée.
+J'ai généré le schéma avec [MySQL Workbench](https://www.mysql.com/products/workbench/):
 
 ![Mon MLD](schema.jpg "Mon MLD généré avec XXX")
 
@@ -15,21 +17,21 @@ J'ai généré le schéma avec XXX:
 ## Informations à récolter
 
 ### Générales
-1. La table `people` contient `NUMBER` personnes, ma requête est:  
-   `SELECT XXX FROM XXX`
-1. La table `people` contient `NUMBER` doublons, ma requête est:  
-   `SELECT XXX FROM XXX`
+1. La table `people` contient `410` personnes, ma requête est:  
+   `SELECT COUNT(*) FROM people;`
+1. La table `people` contient `11` doublons, ma requête est:  
+   `SELECT COUNT(*) - COUNT(DISTINCT(email)) AS duplicateEmails FROM people;`
 1. La table `people` est triée par nom de famille, ma requête est:  
-   `SELECT XXX FROM XXX`
+   `SELECT * FROM people ORDER BY lastname;`
 1. Les 5 premières entrées de la table `people` sont:  
-   `SELECT XXX FROM XXX`
+   `SELECT * FROM people LIMIT 5;`
 1. Je trouve toutes les personnes dont le nom ou le prénom contient `ojo`, ma  
    requête est:  
-   `SELECT XXX FROM XXX`
+   `SELECT * FROM people WHERE firstname LIKE "%ojo%" OR lastname LIKE "%ojo%";`
 1. Les 5 personnes plus agées sont obtenus avec cette requête:  
-   `SELECT XXX FROM XXX`
+   `SELECT * FROM people ORDER BY birthdate ASC LIMIT 5;`
 1. Les 5 personnes plus jeunes sont obtenus avec cette requête:  
-   `SELECT XXX FROM XXX`
+   `SELECT * FROM people WHERE bithdate < now() ORDER BY birthdate DESC LIMIT 5;`
 1. La requête suivante permet de trouver l'age en année de chaque personne:  
    `SELECT XXX FROM XXX`
 1. La moyenne d'age est `NUMBER`, ma requête est:  
