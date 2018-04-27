@@ -86,8 +86,8 @@ base de donnée.
    `tld` des addresses emails ?
 
 ### Vue
-1. Pour faciliter vos futurs requêtes, vous créer une vue `HelloDojo` qui contient les
-   colonnes suivantes:
+1. Pour faciliter vos futurs requêtes, vous créer une vue `HelloDojo` qui
+   contient les colonnes suivantes:
     * Toutes les informations de la table `people`;
     * Une colonne `age`;
     * Une colonne formatée avec `Prénom Nom` (i.c. majuscules);

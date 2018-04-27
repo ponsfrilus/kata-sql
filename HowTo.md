@@ -1,6 +1,7 @@
 # HelloDojo Marketing
 
-Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies pour réaliser les demandes du [README.md](README.md).
+Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies 
+pour réaliser les demandes du [README.md](README.md).
 
 ## Mise en place
 Voici les étapes que j'ai suivies pour installer XXX et importer les tables.
@@ -14,13 +15,13 @@ J'ai généré le schéma avec XXX:
 ## Informations à récolter
 
 ### Générales
-1. La table `people` contient XXX personnes, ma requête est:  
+1. La table `people` contient `NUMBER` personnes, ma requête est:  
    `SELECT XXX FROM XXX`
-1. La table `people` contient XXX doublons, ma requête est:  
+1. La table `people` contient `NUMBER` doublons, ma requête est:  
    `SELECT XXX FROM XXX`
 1. La table `people` est triée par nom de famille, ma requête est:  
    `SELECT XXX FROM XXX`
-1. Je trouve les 5 premiers enregistrements de la table `people`, ma requête est:  
+1. Les 5 premières entrées de la table `people` sont:  
    `SELECT XXX FROM XXX`
 1. Je trouve toutes les personnes dont le nom ou le prénom contient `ojo`, ma  
    requête est:  
@@ -65,10 +66,10 @@ J'ai généré le schéma avec XXX:
 ### Jointure
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
-   je sais que `XXX` habitant en Suisse.
+   je sais que `NUMBER` habitent en Suisse.
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
-   je sais que `XXX` n'habitant pas en Suisse.
+   je sais que `NUMBER` n'habitent pas en Suisse.
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
    je liste les membres habitants en France, Allemagne, Italie, Autriche et Lischenchtein.
@@ -91,14 +92,17 @@ J'ai généré le schéma avec XXX:
 
 ### Procédures
 
-1. Cette requête permet d'extraire `tld` de l'adresse email et de le lier à la table `countries`:  
+1. Cette requête permet d'extraire `tld` de l'adresse email et de le lier à la
+   table `countries`:  
     `SELECT XXX FROM XXX`  
-1. Pour ajouter une chaine si la jointure ne retourne rien, j'ai procédé de la manière suivante:  
+1. Pour ajouter une chaine si la jointure ne retourne rien, j'ai procédé de la
+   manière suivante:  
      `STRING`
 1. Avec `STRING`, nous pouvons partager le mécanisme qui extrait le `tld`.
 
 ### Vue
-1. J'ai créé une vue bien pratique contenant toutes les infomrations utiles à un humain. Ma requête est:  
+1. J'ai créé une vue bien pratique contenant toutes les infomrations utiles à
+   un humain. Ma requête est:  
    `CREATE XXX`
 
 ### Finances
