@@ -49,8 +49,8 @@ base de donnée.
 
 ### Invitations
 1. Pour l'ouverture, vous désirez lister tous le membres de plus de 18 ans,
-  a. et de moins de 60 ans,
-  a. qui ont une addresse email valide.
+  * et de moins de 60 ans,
+  * qui ont une addresse email valide.
 1. Pour faciliter la lecture vous ajoutez une colonne `age` dans votre requête.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
