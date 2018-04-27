@@ -29,10 +29,11 @@ base de donnée.
 1. Il y a-t-il des doublons ?
 1. Comment les trier par ordre alphabétique croissant sur le nom de famille ?
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
-   affichant uniquement les 5 premiers ?
+   affichant uniquement les 5 premiers, toujours triés par nom de famille ?
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
    `ojo` ?
 1. Quelles sont les 5 personnes les plus jeunes ? Et les plus agées ?
+   Attention aux personnes qui ne sont pas encore nées...
 1. Comment peut-on trouver la moyenne d'age des personnes présentes dans la
    table ?
 1. Votre designer travail sur les cartes de membre et il a besoin de savoir
