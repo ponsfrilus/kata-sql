@@ -22,11 +22,12 @@ J'ai généré le schéma avec XXX:
   `SELECT XXX FROM XXX`
 1. Je trouve les 5 premiers enregistrements de la table `people`, ma requête est:  
   `SELECT XXX FROM XXX`
-1. Je trouve tous les enregistrements de la table `people` qui contiennent `ojo`, ma requête est:  
+1. Je trouve toutes les personnes dont le nom ou le prénom contient `ojo`, ma  
+   requête est:  
   `SELECT XXX FROM XXX`
-1. Les 5 personnes plus agées sont `LIST`, ma requête est:  
+1. Les 5 personnes plus agées sont obtenus avec cette requête:  
   `SELECT XXX FROM XXX`
-1. Les 5 personnes plus jeunes sont `LIST`, ma requête est:  
+1. Les 5 personnes plus jeunes sont obtenus avec cette requête:  
   `SELECT XXX FROM XXX`
 1. La moyenne d'age est `NUMBER`, ma requête est:  
   `SELECT XXX FROM XXX`
