@@ -28,15 +28,14 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 1. Il y a-t-il des doublons ?
 1. Comment les trier par ordre alphabétique croissant sur le nom de famille ?
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
-   affichant uniquement les 10 premiers ?
+   affichant uniquement les 5 premiers ?
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
    `ojo` ?
-1. Quelles sont les 10 personnes les plus jeunes ? Et les plus agées ?
+1. Quelles sont les 5 personnes les plus jeunes ? Et les plus agées ?
 1. Comment peut-on trouver la moyenne d'age des personnes présentes dans la
    table ?
 1. Votre designer travail sur les cartes de membre et il a besoin de savoir
-   quelles sont les 5 personnes avec les plus longs prénoms et les plus longs
-   noms.
+   quelle est la personne avec le plus long prénom et le plus long nom.
 1. Ne sachant encore pas exactement la manière dont le layout des cartes de
    membres sera organisé, il aimerait également savoir qui sont les 3 personnes
    qui ont, mis ensemble, la pair nom + prénom la plus longue.
@@ -72,17 +71,29 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 1. Quels sont les pays qui ne possèdent pas de personnes ?
 1. Il y a-t-il des personnes qui sont liées à plusieurs pays ?
 1. Il y a-t-il des personnes liées à aucun pays ?
+1. Comment pourrait-on afficher le pourcentages de personnes par pays ?
+
+### Procédures
 1. Vous avez remarqué que la table `countries.sql` contient une colonne `tld`.
    Trouvez un moyen d'afficher le nom du pays en anglais en fonction du `tld` de
    l'adresse email de la personne.
 1. Pourrait-on afficher "Country Unkown" si l'email est vide ou que le `tld` ne
    match aucun pays ?
-1. Comment pourrait-on afficher le pourcentages de personnes par pays ?
+1. Comment pourrait-on avoir accès à un méchanisme qui trouve automatiquement le
+   `tld` des addresses emails ?
 
 ### Vue
-1. Pour faciliter vos futurs requêtes, vous créer une vue `dojo-vue` qui contient les
+1. Pour faciliter vos futurs requêtes, vous créer une vue `HelloDojo` qui contient les
    colonnes suivantes:
-    * Toutes les informations de la table `dojo-people`;
+    * Toutes les informations de la table `people`;
     * Une colonne `age`;
     * Une colonne formatée avec `Prénom Nom` (i.c. majuscules);
     * Une colonne avec le nom du pays en Français.
+
+### Finances
+1. En vue de l'ouverture, le directeur a déjà acheté des caisses enregistreuses.
+   Vous savez également que des bons et les cartes de membres pourront-être
+   achetés sur le site Internet. Modifiez la base de donnée existante en
+   ajoutant une table `expenses` qui permettra d'ajouter les dépenses de chaque
+   membres.
+1. Modifier la vue `HelloDojo` pour ajouter le total des dépenses par membre.
