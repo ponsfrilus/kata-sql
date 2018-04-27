@@ -29,6 +29,8 @@ J'ai généré le schéma avec XXX:
   `SELECT XXX FROM XXX`
 1. Les 5 personnes plus jeunes sont obtenus avec cette requête:  
   `SELECT XXX FROM XXX`
+1. La requête suivante permet de trouver l'age en année de chaque personne:  
+   `SELECT XXX FROM XXX`
 1. La moyenne d'age est `NUMBER`, ma requête est:  
   `SELECT XXX FROM XXX`
 1. Le plus long prénom est `TEXT`, ma requête est:  

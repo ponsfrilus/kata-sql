@@ -34,6 +34,7 @@ base de donnée.
    `ojo` ?
 1. Quelles sont les 5 personnes les plus jeunes ? Et les plus agées ?
    Attention aux personnes qui ne sont pas encore nées...
+1. Comment trouver l'age, en année, des personnes ?
 1. Comment peut-on trouver la moyenne d'age des personnes présentes dans la
    table ?
 1. Votre designer travail sur les cartes de membre et il a besoin de savoir
