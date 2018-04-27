@@ -15,34 +15,34 @@ J'ai généré le schéma avec XXX:
 
 ### Générales
 1. La table `people` contient XXX personnes, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. La table `people` contient XXX doublons, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. La table `people` est triée par nom de famille, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Je trouve les 5 premiers enregistrements de la table `people`, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Je trouve toutes les personnes dont le nom ou le prénom contient `ojo`, ma  
    requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Les 5 personnes plus agées sont obtenus avec cette requête:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Les 5 personnes plus jeunes sont obtenus avec cette requête:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. La requête suivante permet de trouver l'age en année de chaque personne:  
    `SELECT XXX FROM XXX`
 1. La moyenne d'age est `NUMBER`, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Le plus long prénom est `TEXT`, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 1. Le plus long prénom est `TEXT`, ma requête est:  
   `SELECT XXX FROM XXX`
 1. La plus longue pair nom + prénom est `TEXT`, ma requête est:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
 
 ### Invitations
 1. Pour lister tous le membres de plus de 18 ans:  
-  `SELECT XXX FROM XXX`
+   `SELECT XXX FROM XXX`
   a. et de moins de 60 ans:  
      `SELECT XXX FROM XXX`
   a. qui ont une addresse email valide:  
