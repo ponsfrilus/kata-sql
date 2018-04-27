@@ -1,6 +1,5 @@
 # EPFL Dojo - Requêtes SQL
-Le but est d'avoir un exercice permettant de pratiquer des requêtes SQL sur des
-tables pré-définies.
+Le but est d'avoir un exercice permettant de pratiquer des requêtes SQL sur des tables pré-définies.
 
 ## Concept
 Vous êtes responsable de la communication de la discothèque "HelloDojo" qui
@@ -18,7 +17,7 @@ vos collègues et en profiter !
 ## Mise en place
 Tout d'abord, vous devez vous débrouiller pour importer les données dans un
 système de gestion de base de données (SGBD) tel que mysql. Toutes les options
-vous sont ouvertes.
+vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 
 ## Informations à récolter
 
@@ -31,6 +30,7 @@ vous sont ouvertes.
    affichant uniquement les 10 premiers ?
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient `ojo` ?
 1. Quelles sont les 10 personnes les plus jeunes ? Et les plus agées ?
+1. Comment peut-on trouver la moyenne d'age des personnes présentent dans la table ?
 1. Votre designer travail sur les cartes de membre et il a besoin de savoir
    quelles sont les 5 personnes avec les plus longs prénoms et les plus longs
    noms.

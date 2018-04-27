@@ -13,10 +13,10 @@
 SET NAMES utf8;
 
 /*Table structure for table `countries` */
-CREATE TABLE `countries` (
+CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(3) NOT NULL,
   `iso2` char(2) NOT NULL,
-  `iso3` char(2) NOT NULL,
+  `iso3` char(3) NOT NULL,
   `name_en` varchar(80) NOT NULL,
   `name_fr` varchar(80) NOT NULL,
   `tld` char(4) DEFAULT NULL,
