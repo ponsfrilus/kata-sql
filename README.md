@@ -66,11 +66,18 @@ vous sont ouvertes. Vous créez également un schéma de votre base de donnée.
 1. De la même manière, lister les personnes qui n'habitent pas en Suisse.
 1. Comment lister les personnes qui habitent dans les pays limitrophe de la
    Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
+1. Vous souhaitez savoir combien il y a de personnes par pays, afin de savoir si
+   votre table people a suffisament de personnes en suisse et combien de
+   personnes sont étrangères.
+1. Quels sont les pays qui ne possèdent pas de personnes ?
+1. Il y a-t-il des personnes qui sont liées à plusieurs pays ?
+1. Il y a-t-il des personnes liées à aucun pays ?
 1. Vous avez remarqué que la table `countries.sql` contient une colonne `tld`.
    Trouvez un moyen d'afficher le nom du pays en anglais en fonction du `tld` de
    l'adresse email de la personne.
 1. Pourrait-on afficher "Country Unkown" si l'email est vide ou que le `tld` ne
    match aucun pays ?
+1. Comment pourrait-on afficher le pourcentages de personnes par pays ?
 
 ### Vue
 1. Pour faciliter vos futurs requêtes, vous créer une vue `dojo-vue` qui contient les
