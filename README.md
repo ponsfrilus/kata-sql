@@ -31,7 +31,9 @@ base de donnée.
 1. Pour commencer, vous désirez connaître le nombre de personnes que vous avez
    dans votre base de données (`people`).
 1. Il y a-t-il des doublons ?
-1. Comment les trier par ordre alphabétique croissant sur le nom de famille ?
+1. Comment trouver l'email de la personne dont le nom de famille est "Warren" ?
+1. Comment trier les résultats par ordre alphabétique croissant sur le nom de
+   famille ?
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
    affichant uniquement les 5 premiers, toujours triés par nom de famille ?
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
