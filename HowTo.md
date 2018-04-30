@@ -1,6 +1,6 @@
 # HelloDojo Marketing
 
-Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies 
+Ce fichier permet de documenter (et logguer) les étapes que vous avez suivies
 pour réaliser les demandes du [README.md](README.md).
 
 ## Mise en place
@@ -18,6 +18,9 @@ J'ai généré le schéma avec XXX:
 1. La table `people` contient `NUMBER` personnes, ma requête est:  
    `SELECT XXX FROM XXX`
 1. La table `people` contient `NUMBER` doublons, ma requête est:  
+   `SELECT XXX FROM XXX`
+1. Cette requête permet de trouver les infos de la personne dont le nom de
+   famille est "Warren" ?
    `SELECT XXX FROM XXX`
 1. La table `people` est triée par nom de famille, ma requête est:  
    `SELECT XXX FROM XXX`
