@@ -50,7 +50,7 @@ base de donnée.
    qui ont, mis ensemble, la pair nom + prénom la plus longue.
 
 ### Invitations
-1. Pour l'ouverture, vous désirez lister tous le membres de plus de 18 ans,
+1. Pour l'ouverture, vous désirez lister tous les membres de plus de 18 ans,
     * et de moins de 60 ans,
     * qui ont une addresse email valide.
 1. Pour faciliter la lecture vous ajoutez une colonne `age` dans votre requête.
