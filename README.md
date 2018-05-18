@@ -53,7 +53,8 @@ base de donnée.
 1. Pour l'ouverture, vous désirez lister tous les membres de plus de 18 ans,
     * et de moins de 60 ans,
     * qui ont une addresse email valide.
-1. Pour faciliter la lecture vous ajoutez une colonne `age` dans votre requête.
+1. Pour faciliter la lecture vous ajoutez une colonne `age` dans le résultat 
+   de votre requête.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
    votre client email.
