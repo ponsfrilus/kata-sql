@@ -39,7 +39,7 @@ J'ai généré le schéma avec XXX:
    `SELECT XXX FROM XXX`
 1. Le plus long prénom est `TEXT`, ma requête est:  
    `SELECT XXX FROM XXX`
-1. Le plus long prénom est `TEXT`, ma requête est:  
+1. Le plus long nom de famille est `TEXT`, ma requête est:  
   `SELECT XXX FROM XXX`
 1. La plus longue pair nom + prénom est `TEXT`, ma requête est:  
    `SELECT XXX FROM XXX`
