@@ -51,7 +51,7 @@ J'ai généré le schéma avec XXX:
      `SELECT XXX FROM XXX`
   a. qui ont une addresse email valide:  
      `SELECT XXX FROM XXX`
-1. Pour ajoutez une colonne `age`:  
+1. Pour ajoutez une colonne `age` dans le résultat de la requête:  
    `SELECT XXX FROM XXX`
 1. Pour générer une liste contenant `Prénom Nom <email@provider.com>;`:  
    `SELECT XXX FROM XXX`
