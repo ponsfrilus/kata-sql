@@ -58,8 +58,8 @@ base de donnée.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
    votre client email.
-1. Avec les informations contenues dans la table `people`, pourrait-on
-   approximer le nombre de personnes habitant en Suisse ?
+1. Avec les informations contenues dans la table `people` (sans jointures), 
+   pourrait-on approximer le nombre de personnes habitant en Suisse ?
 
 ### Countries
 1. Pour un futur formulaire d'inscription sur un site Internet, vous voulez
