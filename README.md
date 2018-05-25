@@ -73,8 +73,8 @@ base de donnée.
 1. En utilisant la table de jointure `countries_people.sql`, lister les
    personnes habitant en Suisse.
 1. De la même manière, lister les personnes qui n'habitent pas en Suisse.
-1. Comment lister les personnes qui habitent dans les pays limitrophe de la
-   Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
+1. Comment lister les personnes (nom et prénom) qui habitent dans les pays 
+   limitrophe de la Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
 1. Vous souhaitez savoir combien il y a de personnes par pays, afin de savoir si
    votre table people a suffisament de personnes en suisse et combien de
    personnes sont étrangères.
