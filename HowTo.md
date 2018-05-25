@@ -69,13 +69,14 @@ J'ai généré le schéma avec XXX:
 ### Jointure
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
-   je sais que `NUMBER` habitent en Suisse.
+   je sais que `NUMBER` personnes habitent en Suisse.
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
-   je sais que `NUMBER` n'habitent pas en Suisse.
+   je sais que `NUMBER` personnes n'habitent pas en Suisse.
 1. Avec cette requête:  
      `SELECT XXX FROM XXX`  
-   je liste les membres habitants en France, Allemagne, Italie, Autriche et Lischenchtein.
+   je liste (nom & prénom) des membres habitants de France, Allemagne, Italie, Autriche 
+   et Lischenchtein.
 1. Cette requête:  
      `SELECT XXX FROM XXX`  
    permet de compter combien il y a de personnes par pays.
