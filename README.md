@@ -17,7 +17,7 @@ La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
 [StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également sérvir.
 
-# Etapes
+# Étapes
 
 ## Mise en place
 Tout d'abord, vous devez vous débrouiller pour __importer les données__ dans un
