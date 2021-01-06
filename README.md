@@ -53,19 +53,19 @@ base de donnée.
 1. Pour l'ouverture, vous désirez lister tous les membres de plus de 18 ans,
     * et de moins de 60 ans,
     * qui ont une addresse email valide.
-1. Pour faciliter la lecture vous ajoutez une colonne `age` dans le résultat 
+1. Pour faciliter la lecture vous ajoutez une colonne `age` dans le résultat
    de votre requête.
 1. Avec ces membres, vous désirez faire une liste sous le format suivant
    `Prénom Nom <email@provider.com>;` afin de pouvoir la copier/coller dans
    votre client email.
-1. Avec les informations contenues dans la table `people` (sans jointures), 
+1. Avec les informations contenues dans la table `people` (sans jointures),
    pourrait-on approximer le nombre de personnes habitant en Suisse ?
 
 ### Countries
 1. Pour un futur formulaire d'inscription sur un site Internet, vous voulez
    pré-macher votre travail en préparant les données des pays pour les options
    d'un `<select>`. Préparer la requête qui permet d'obtenir la liste d'options
-   sous la forme: `<option value="XXX">XXX</option>`.
+   sous la forme : `<option value="XXX">XXX</option>`.
 1. Quelle serait une solution pour avoir cette liste disponible en français et
    en anglais lorsque le site sera traduit ?
 
@@ -73,7 +73,7 @@ base de donnée.
 1. En utilisant la table de jointure `countries_people.sql`, lister les
    personnes habitant en Suisse.
 1. De la même manière, lister les personnes qui n'habitent pas en Suisse.
-1. Comment lister les personnes (nom et prénom) qui habitent dans les pays 
+1. Comment lister les personnes (nom et prénom) qui habitent dans les pays
    limitrophe de la Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
 1. Vous souhaitez savoir combien il y a de personnes par pays, afin de savoir si
    votre table people a suffisament de personnes en suisse et combien de
@@ -94,10 +94,10 @@ base de donnée.
 
 ### Vue
 1. Pour faciliter vos futurs requêtes, vous créer une vue `HelloDojo` qui
-   contient les colonnes suivantes:
-    * Toutes les informations de la table `people`;
-    * Une colonne `age`;
-    * Une colonne formatée avec `Prénom Nom` (i.c. majuscules);
+   contient les colonnes suivantes :
+    * Toutes les informations de la table `people` ;
+    * Une colonne `age` ;
+    * Une colonne formatée avec `Prénom Nom` (i.c. majuscules) ;
     * Une colonne avec le nom du pays en Français.
 
 ### Finances
