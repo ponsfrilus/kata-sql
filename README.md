@@ -30,14 +30,20 @@ base de donnée.
 ### Générales
 1. Pour commencer, vous désirez connaître le nombre de personnes que vous avez
    dans votre base de données (`people`).
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "SELECT")
 1. Il y a-t-il des doublons ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "DISTINCT")
 1. Comment trouver l'email de la personne dont le nom de famille est "Warren" ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "WHERE")
 1. Comment trier les résultats par ordre alphabétique croissant sur le nom de
    famille ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "ORDER BY")
 1. Il y a-t-il un moyen de limiter le nombre de résultat, par exemple en
    affichant uniquement les 5 premiers, toujours triés par nom de famille ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "LIMIT")
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
    `ojo` ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/string-comparison-functions.html#operator_like "LIKE")
 1. Quelles sont les 5 personnes les plus jeunes ? Et les plus agées ?
    Attention aux personnes qui ne sont pas encore nées...
 1. Comment trouver l'age, en année, des personnes ?
