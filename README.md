@@ -1,8 +1,31 @@
-# EPFL Dojo - Requêtes SQL
-Le but est d'avoir un exercice permettant de pratiquer des requêtes SQL sur des
+# Kata SQL
+
+Ceci est un exercice permettant de pratiquer des requêtes SQL sur des
 tables pré-définies.
 
+> **À propos**
+>
+> ⓘ Ceci est la donnée d'un [kata], un _exercice de programmation_ qui se
+> déroule généralement dans le cadre d'un [coding dojo]. Il est proposé aux
+> membres du dojo de l'[EPFL] et fait partie d'une collection de différents
+> katas identifiés par le tag [epfl-dojo-kata] sur GitHub. Vous êtes plus que
+> bienvenu d'essayer de le réaliser dans le langage de programmation de votre
+> choix. Pour cela, un bon point de départ pour cela est de [forker] ce
+> repository. Le «[stargazer]» en lui ajoutant une **☆** nous fait également
+> très plaisir. Finalement, n'hésitez pas à l'améliorer en faisant des
+> [pull requests]. Bonne lecture !
+
+[kata]: https://fr.wikipedia.org/wiki/Coding_dojo#Kata
+[coding dojo]: https://fr.wikipedia.org/wiki/Coding_dojo
+[EPFL]: https://www,epfl.ch
+[epfl-dojo-kata]: https://github.com/topics/epfl-dojo-kata
+[forker]: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
+[stargazer]: https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars
+[pull requests]: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request
+
+
 ## Concept
+
 Vous êtes responsable de la communication de la discothèque "HelloDojo" qui
 ouvrira prochainement ses portes. Vous avez récupéré des listes de personnes au
 format SQL et dans le but d'exercer vos talents de marketing, vous avez besoin
@@ -17,13 +40,16 @@ La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
 [StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également sérvir.
 
+
 # Étapes
 
 ## Mise en place
+
 Tout d'abord, vous devez vous débrouiller pour __importer les données__ dans un
 système de gestion de base de données (SGBD) tel que mysql. Toutes les options
 vous sont ouvertes. Vous créez également un [schema.jpg](schema.png) de votre
 base de donnée.
+
 
 ## Informations à récolter
 
