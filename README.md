@@ -8,9 +8,9 @@ tables pré-définies.
 > ⓘ Ceci est la donnée d'un [kata], un _exercice de programmation_ qui se
 > déroule généralement dans le cadre d'un [coding dojo]. Il est proposé aux
 > membres du dojo de l'[EPFL] et fait partie d'une collection de différents
-> katas identifiés par le tag [epfl-dojo-kata] sur GitHub. Vous êtes plus que
-> bienvenu d'essayer de le réaliser dans le langage de programmation de votre
-> choix. Pour cela, un bon point de départ pour cela est de [forker] ce
+> katas identifiés par le tag [epfl-dojo-kata] sur GitHub. Vous êtes
+> cordialement invité à essayer de le réaliser dans le langage de programmation
+> de votre choix. Pour cela, un bon point de départ pour cela est de [forker] ce
 > repository. Le «[stargazer]» en lui ajoutant une **☆** nous fait également
 > très plaisir. Finalement, n'hésitez pas à l'améliorer en faisant des
 > [pull requests]. Bonne lecture !
@@ -29,16 +29,17 @@ tables pré-définies.
 Vous êtes responsable de la communication de la discothèque "HelloDojo" qui
 ouvrira prochainement ses portes. Vous avez récupéré des listes de personnes au
 format SQL et dans le but d'exercer vos talents de marketing, vous avez besoin
-d'en extraire des informations pertinantes.
+d'en extraire des informations pertinentes.
 
-Afin que d'autres personnes puissent faire de même, __vous devez noter toutes
-les étapes dans le fichier [HowTo.md](HowTo.md)__. Dans un monde idéal, vous
-avez __cloné le dépôt__ et ainsi vous pourrez également voir les démarches
-effectuées par vos collègues et en profiter !
+Afin que d'autres personnes puissent faire de même, __vous devez consigner les
+étapes pour reproduire votre travail le fichier [HowTo.md](HowTo.md)__. Dans un
+monde idéal, vous avez __cloné le dépôt__ et ainsi vous pourrez également voir
+les démarches effectuées par vos collègues et en profiter !
 
 La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
-[StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également sérvir.
+[StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également
+sérvir.
 
 
 # Étapes
@@ -46,9 +47,10 @@ La documentation officielle de MySQL se trouve
 ## Mise en place
 
 Tout d'abord, vous devez vous débrouiller pour __importer les données__ dans un
-système de gestion de base de données (SGBD) tel que mysql. Toutes les options
-vous sont ouvertes. Vous créez également un [schema.jpg](schema.png) de votre
-base de donnée.
+système de gestion de base de données (SGBD) tel que MySQL. Toutes les options
+vous sont ouvertes. Vous fournissez une explication sur ce choix dans le fichier
+[HowTo.md](HowTo.md), et vous créez également un [schema.jpg](schema.png) 
+permettant de visualiser les différentes tables de la base de donnée.
 
 
 ## Informations à récolter
@@ -57,8 +59,6 @@ base de donnée.
 1. Pour commencer, vous désirez connaître le nombre de personnes que vous avez
    dans votre base de données (`people`).
    [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "SELECT")
-1. Il y a-t-il des doublons ?
-   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "DISTINCT")
 1. Comment trouver l'email de la personne dont le nom de famille est "Warren" ?
    [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "WHERE")
 1. Comment trier les résultats par ordre alphabétique croissant sur le nom de
@@ -80,6 +80,8 @@ base de donnée.
 1. Ne sachant encore pas exactement la manière dont le layout des cartes de
    membres sera organisé, il aimerait également savoir qui sont les 3 personnes
    qui ont, mis ensemble, la pair nom + prénom la plus longue.
+1. Il y a-t-il des doublons dans la table people ?
+   [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "DISTINCT")
 
 ### Invitations
 1. Pour l'ouverture, vous désirez lister tous les membres de plus de 18 ans,
@@ -131,6 +133,8 @@ base de donnée.
     * Une colonne `age` ;
     * Une colonne formatée avec `Prénom Nom` (i.c. majuscules) ;
     * Une colonne avec le nom du pays en Français.
+1. Afin de partager les informations présentes dans cette vue, vous l'exporter
+   au format CSV afin que vos collègues puissent la visualiser dans un tableur.
 
 ### Finances
 1. En vue de l'ouverture, le directeur a déjà acheté des caisses enregistreuses.
