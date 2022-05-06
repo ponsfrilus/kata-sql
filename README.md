@@ -129,15 +129,15 @@ permettant de visualiser les différentes tables de la base de donnée.
 1. Comment pourrait-on avoir accès à un méchanisme qui trouve automatiquement le
    `tld` des addresses emails ?
 
-### Vue
-1. Pour faciliter vos futurs requêtes, vous créer une vue `HelloDojo` qui
+### Vue SQL
+1. Pour faciliter vos futurs requêtes, vous créer une vue SQL `HelloDojo`[ⓘ](https://dev.mysql.com/doc/refman/8.0/en/create-view.html "CREATE VIEW") qui
    contient les colonnes suivantes :
     * Toutes les informations de la table `people` ;
     * Une colonne `age` ;
     * Une colonne formatée avec `Prénom Nom` (i.c. majuscules) ;
     * Une colonne avec le nom du pays en Français.
 1. Afin de partager les informations présentes dans cette vue, vous l'exporter
-   au format CSV afin que vos collègues puissent la visualiser dans un tableur.
+   au format CSV afin que vos collègues puissent la visualiser dans un tableur. [ⓘ](https://stackoverflow.com/questions/356578/how-can-i-output-mysql-query-results-in-csv-format "CSV & MySQL")
 
 ### Finances
 1. En vue de l'ouverture, le directeur a déjà acheté des caisses enregistreuses.
