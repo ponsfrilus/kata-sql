@@ -146,3 +146,11 @@ permettant de visualiser les différentes tables de la base de donnée.
    ajoutant une table `expenses` qui permettra d'ajouter les dépenses de chaque
    membres.
 1. Modifier la vue `HelloDojo` pour ajouter le total des dépenses par membre.
+
+### Intégrité référentielle
+1. Comment devez-vous procéder pour ajouter des contraintes dans votre schéma,
+   en tant que clés étrangères de la table `counties_people` vers les tables
+   `countries` et  `people` ?
+   * CONSTRAINT `countries_people_ibfk_1` FOREIGN KEY (`idcountry`) REFERENCES `countries` (`id`)
+   * CONSTRAINT `countries_people_ibfk_2` FOREIGN KEY (`idperson`) REFERENCES `people` (`id`)
+1. Pourquoi est-il nécessaire d'altérer les données ?

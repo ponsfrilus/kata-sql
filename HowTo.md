@@ -183,7 +183,7 @@ J'ai généré le schéma avec XXX:
   SELECT somecolumns FROM sometable [...];
   ```
 
-### Vue
+### Vue SQL
 
 1. J'ai créé une vue bien pratique contenant toutes les infomrations utiles à un humain. Ma requête est:  
   ```sql
@@ -204,3 +204,12 @@ J'ai généré le schéma avec XXX:
   ```sql
   UPDATE someview [...];
   ```
+
+### Intégrité référentielle
+
+1. Pour ajouter les clés étrangères, j'ai utilisé les requêtes suivantes :  
+  ```sql
+  ALTER sometable [...];
+  ALTER sometable [...];
+  ```
+1. J'ai du modifier les données de la table `NAME` parce que XXX.
