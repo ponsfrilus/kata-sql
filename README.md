@@ -36,6 +36,9 @@ Afin que d'autres personnes puissent faire de même, __vous devez consigner les
 monde idéal, vous avez __cloné le dépôt__ et ainsi vous pourrez également voir
 les démarches effectuées par vos collègues et en profiter !
 
+Si vous êtes arrivé au bout de l'exercice, vous pouvez derechef vous ajouter au
+fichier [Jelaifait.md](Ivemadeit.md) dans une pull request. 
+
 La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
 [StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également
