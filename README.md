@@ -123,11 +123,11 @@ permettant de visualiser les différentes tables de la base de donnée.
 ### Procédures
 1. Vous avez remarqué que la table `countries.sql` contient une colonne `tld`.
    Trouvez un moyen d'afficher le nom du pays en anglais en fonction du `tld` de
-   l'adresse email de la personne.
+   l'adresse email de la personne. [ⓘ](# "Pattern Matching ou Regular Expressions")
 1. Pourrait-on afficher "Country Unkown" si l'email est vide ou que le `tld` ne
-   match aucun pays ?
+   match aucun pays ? [ⓘ](https://dev.mysql.com/doc/refman/5.7/en/flow-control-functions.html#function_ifnull "IFNULL")
 1. Comment pourrait-on avoir accès à un méchanisme qui trouve automatiquement le
-   `tld` des addresses emails ?
+   `tld` des addresses emails ? [ⓘ](https://dev.mysql.com/doc/refman/5.7/en/create-procedure.html "FUNCTION")
 
 ### Vue SQL
 1. Pour faciliter vos futurs requêtes, vous créer une vue SQL `HelloDojo`[ⓘ](https://dev.mysql.com/doc/refman/8.0/en/create-view.html "CREATE VIEW") qui
@@ -144,11 +144,11 @@ permettant de visualiser les différentes tables de la base de donnée.
    Vous savez également que des bons et les cartes de membres pourront-être
    achetés sur le site Internet. Modifiez la base de donnée existante en
    ajoutant une table `expenses` qui permettra d'ajouter les dépenses de chaque
-   membres.
+   membre.
 1. Modifier la vue `HelloDojo` pour ajouter le total des dépenses par membre.
 
 ### Intégrité référentielle
-1. Comment devez-vous procéder pour ajouter des contraintes dans votre schéma,
+1. Comment devez-vous procéder pour ajouter des contraintes [ⓘ](https://dev.mysql.com/doc/refman/5.6/en/create-table-foreign-keys.html "CONSTRAINT") dans votre schéma,
    en tant que clés étrangères de la table `counties_people` vers les tables
    `countries` et  `people` ?
    * CONSTRAINT `countries_people_ibfk_1` FOREIGN KEY (`idcountry`) REFERENCES `countries` (`id`)
