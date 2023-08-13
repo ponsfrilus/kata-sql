@@ -15,12 +15,16 @@ Vous devez expliquer ici quelle solution technique vous avez choisie, comment
 il faut procéder pour l'installer, quelles sont les commandes ou les étapes à
 suivre pour importer les tables, quel outil vous avez utilisé pour créer le
 schéma entité-relation de la base, et toutes autres informations qui pourraient
-vous sembler utiles dans le but qu'une autre personne puisse reproduire votre
-démarche.
+vous sembler utiles dans le but qu'une autre personne puisse **reproduire** 
+votre démarche.
 -->
 
 Voici les étapes que j'ai suivies pour installer XXX, créer une base de données
-et y importer les tables.
+et y importer les tables :
+  1. ...
+  1. ...
+  1. ...
+  1. ...
 
 J'ai choisi d'utiliser XXX comme client de base de données.
 
@@ -36,16 +40,18 @@ J'ai généré le schéma avec XXX:
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Cette requête permet de trouver les infos de la personne dont le nom de
+1. Cette requête permet de trouver l'email de la personne dont le nom de
    famille est "Warren" :
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. La table `people` est triée par nom de famille, ma requête est :  
+1. La table `people` est triée par nom de famille en ordre croissant, ma requête 
+   est :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Les 5 premières entrées de la table `people` sont :  
+1. Les 5 premières entrées de la table `people` triée par nom de famille en 
+   ordre croissant sont :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
@@ -54,11 +60,11 @@ J'ai généré le schéma avec XXX:
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Les 5 personnes les plus agées sont obtenues avec cette requête :  
+1. Les 5 personnes les plus jeunes sont obtenues avec cette requête :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Les 5 personnes les plus jeunes sont obtenues avec cette requête :  
+1. Les 5 personnes les plus agées sont obtenues avec cette requête :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
@@ -97,7 +103,8 @@ J'ai généré le schéma avec XXX:
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Pour lister tous les membres de plus de 18 ans, de moins de 60 ans et qui ont une addresse email valide :  
+1. Pour lister tous les membres de plus de 18 ans, de moins de 60 ans et qui 
+   une addresse email valide :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
@@ -117,11 +124,13 @@ J'ai généré le schéma avec XXX:
 
 ### Countries
 
-1. La requête qui permet d'obtenir la liste d'options sous la forme : `<option value="XXX">XXX</option>` est :  
+1. La requête qui permet d'obtenir la liste d'options sous la forme :  
+   `<option value="XXX">XXX</option>` est :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
-1. Pour avoir la liste d'options en plusieurs langues, je procède de la manière suivante :  
+1. Pour avoir la liste d'options en plusieurs langues, je procède de la manière 
+   suivante :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```
@@ -162,12 +171,12 @@ J'ai généré le schéma avec XXX:
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```  
-  je sais que `NAME` est lié à un pays qui n'existe pas dans la base.
+  je sais que `TEXT` parce que `TEXT`.
 1. De la manière suivante :  
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```  
-  nous pouvons afficher le pourcentages de personnes par pays.
+  nous pouvons afficher le pourcentage de personnes par pays.
 
 
 ### Procédures
@@ -200,13 +209,17 @@ J'ai généré le schéma avec XXX:
   ```sql
   CREATE sometable [...];
   ```
+1. J'ai ajouté des données de test avec la reuêtes SQL suivante :  
+   ```sql
+   INSERT INTO expenses [...];
+   ```
 1. J'ai modifié la vue en y ajoutant les finances. Ma requête est:  
   ```sql
   UPDATE someview [...];
   ```
 
 ### Intégrité référentielle
-
+(WIP)
 1. Pour ajouter les clés étrangères, j'ai utilisé les requêtes suivantes :  
   ```sql
   ALTER sometable [...];
