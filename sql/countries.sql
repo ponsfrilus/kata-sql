@@ -9,7 +9,7 @@
  *  - http://fr.wikipedia.org/wiki/ISO_3166-1
  **/
 
-SET NAMES utf8mb4;
+SET NAMES utf8;
 
 DROP TABLE IF EXISTS `countries`;
 CREATE TABLE `countries` (
@@ -20,7 +20,7 @@ CREATE TABLE `countries` (
  `name_fr` varchar(80) CHARACTER SET utf8 NOT NULL,
  `tld` char(4) CHARACTER SET utf8 DEFAULT NULL,
  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `country` */
 INSERT INTO countries values (20,"AD","AND","Andorra","Andorre",".ad");
