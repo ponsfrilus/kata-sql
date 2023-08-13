@@ -1,4 +1,4 @@
-# Kata SQL
+# Kata SQL (aka Dojo Marketing)
 
 Ceci est un exercice permettant de pratiquer des requêtes SQL sur des
 tables pré-définies.
@@ -32,15 +32,20 @@ format SQL et dans le but d'exercer vos talents de marketing, vous avez besoin
 d'en extraire des informations pertinentes.
 
 Afin que d'autres personnes puissent faire de même, __vous devez consigner les
-étapes pour reproduire votre travail le fichier [HowTo.md](HowTo.md)__. Dans un
-monde idéal, vous avez __cloné le dépôt__ et ainsi vous pourrez également voir
-les démarches effectuées par vos collègues et en profiter !
+étapes pour reproduire votre travail le fichier [HowTo.md](HowTo.md)__.
 
-Si vous êtes arrivé au bout de l'exercice, vous pouvez derechef vous ajouter au
-fichier [Jelaifait.md](Ivemadeit.md) dans une pull request. 
+Commencez par [cloner le dépôt](https://github.com/ponsfrilus/kata-sql/fork) 
+pour pouvoir utiliser Git et commiter vos avancements. Cela permet aussi de 
+montrer que vous avez fait l'exercice. Vous pouvez également voir comment les
+autres ont procédé, et invérsément !
+
+Si vous êtes arrivé au bout de l'exercice, vous pouvez derechef vous
+ajouter au fichier [IVEMADEIT.md](IVEMADEIT.md) en l'[éditant en
+ligne](https://github.com/ponsfrilus/kata-sql/edit/master/IVEMADEIT.md).
 
 La documentation officielle de MySQL se trouve
-[ici](https://dev.mysql.com/doc/refman/8.0/en/) et la page de
+[ici](https://dev.mysql.com/doc/refman/8.0/en/), celle de
+MariaDB [là](https://mariadb.com/docs/server/sql/) et la page de
 [StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également
 sérvir.
 
