@@ -151,7 +151,7 @@ J'ai généré le schéma avec XXX:
   ```sql
   SELECT somecolumns FROM sometable [...];
   ```  
-  je liste (nom & prénom) les membres habitants de France, Allemagne, Italie,   Autriche et Lischenchtein.
+  je liste (nom & prénom) les membres habitants de France, Allemagne, Italie, Autriche et Liechtenstein.
 1. Cette requête :  
   ```sql
   SELECT somecolumns FROM sometable [...];

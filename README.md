@@ -3,26 +3,27 @@
 Ceci est un exercice permettant de pratiquer des requêtes SQL sur des
 tables pré-définies.
 
+<!-- start:apropos -->
 > **À propos**
 >
 > ⓘ Ceci est la donnée d'un [kata], un _exercice de programmation_ qui se
 > déroule généralement dans le cadre d'un [coding dojo]. Il est proposé aux
 > membres du dojo de l'[EPFL] et fait partie d'une collection de différents
-> katas identifiés par le tag [epfl-dojo-kata] sur GitHub. Vous êtes
-> cordialement invité à essayer de le réaliser dans le langage de programmation
-> de votre choix. Pour cela, un bon point de départ pour cela est de [forker] ce
-> repository. Le «[stargazer]» en lui ajoutant une **☆** nous fait également
-> très plaisir. Finalement, n'hésitez pas à l'améliorer en faisant des
-> [pull requests]. Bonne lecture !
+> katas identifiés par le tag **[epfl-dojo-kata]** sur GitHub.  
+> Vous êtes plus que bienvenu·e d'essayer de le réaliser dans le langage de
+> programmation de votre choix. Lorsque c'est terminé, ajoutez-vous à la liste
+> de ceux qui l'ont fait dans ce document en proposant une [Pull Request]. Vous
+> pouvez également partager votre intérêt pour ce dépôt en
+> le «[stargazant]», c'est à dire en lui ajoutant une ⭐.  
+> Bonne lecture et bon code !
 
 [kata]: https://fr.wikipedia.org/wiki/Coding_dojo#Kata
 [coding dojo]: https://fr.wikipedia.org/wiki/Coding_dojo
-[EPFL]: https://www,epfl.ch
+[EPFL]: https://www.epfl.ch
 [epfl-dojo-kata]: https://github.com/topics/epfl-dojo-kata
-[forker]: https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository
-[stargazer]: https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars
-[pull requests]: https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request
-
+[Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+[stargazant]: https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars
+<!-- end:apropos -->
 
 ## Concept
 
@@ -37,7 +38,7 @@ Afin que d'autres personnes puissent faire de même, __vous devez consigner les
 Commencez par [cloner le dépôt](https://github.com/ponsfrilus/kata-sql/fork) 
 pour pouvoir utiliser Git et commiter vos avancements. Cela permet aussi de 
 montrer que vous avez fait l'exercice. Vous pouvez également voir comment les
-autres ont procédé, et invérsément !
+autres ont procédé, et inversement !
 
 Si vous êtes arrivé au bout de l'exercice, vous pouvez derechef vous
 ajouter au fichier [IVEMADEIT.md](IVEMADEIT.md) en l'[éditant en
@@ -47,7 +48,7 @@ La documentation officielle de MySQL se trouve
 [ici](https://dev.mysql.com/doc/refman/8.0/en/), celle de
 MariaDB [là](https://mariadb.com/docs/server/sql/) et la page de
 [StackOverflow](https://stackoverflow.com/tags/mysql/info) peut également
-sérvir.
+servir.
 
 
 # Étapes
@@ -58,7 +59,7 @@ Tout d'abord, vous devez vous débrouiller pour __importer les données__ dans u
 système de gestion de base de données (SGBD) tel que MySQL. Toutes les options
 vous sont ouvertes. Vous fournissez une explication sur ce choix dans le fichier
 [HowTo.md](HowTo.md), et vous créez également un [schema.jpg](schema.png) 
-permettant de visualiser les différentes tables de la base de donnée.
+permettant de visualiser les différentes tables de la base de données.
 
 
 ## Informations à récolter
@@ -78,15 +79,15 @@ permettant de visualiser les différentes tables de la base de donnée.
 1. Comment trouver les personnes qui ont un prénom ou un nom qui contient
    `ojo` ?
    [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/string-comparison-functions.html#operator_like "LIKE")
-1. Quelles sont les 5 personnes les plus jeunes ? Et les plus agées ?
-1. Comment trouver l'age, en année, des personnes ?
-1. Comment peut-on trouver la moyenne d'age des personnes présentes dans la
+1. Quelles sont les 5 personnes les plus jeunes ? Et les plus âgées ?
+1. Comment trouver l'âge, en années, des personnes ?
+1. Comment peut-on trouver la moyenne d'âge des personnes présentes dans la
    table ?
-1. Votre designer travail sur les cartes de membre et il a besoin de savoir
+1. Votre designer travaille sur les cartes de membre et il a besoin de savoir
    quelle est la personne avec le plus long prénom et le plus long nom.
 1. Ne sachant encore pas exactement la manière dont le layout des cartes de
    membres sera organisé, il aimerait également savoir qui sont les 3 personnes
-   qui ont, mis ensemble, la pair nom + prénom la plus longue.
+   qui ont, mis ensemble, la paire nom + prénom la plus longue.
 1. Il y a-t-il des doublons dans la table people ?
    [ⓘ](https://dev.mysql.com/doc/refman/8.0/en/select.html "DISTINCT")
 
@@ -115,7 +116,7 @@ permettant de visualiser les différentes tables de la base de donnée.
    personnes habitant en Suisse.
 1. De la même manière, lister les personnes qui n'habitent pas en Suisse.
 1. Comment lister les personnes (nom et prénom) qui habitent dans les pays
-   limitrophe de la Suisse ? (i.e France, Allemagne, Italie, Autriche, Lischenchtein)
+   limitrophe de la Suisse ? (i.e France, Allemagne, Italie, Autriche, Liechtenstein)
 1. Vous souhaitez savoir combien il y a de personnes par pays, afin de savoir si
    votre table people a suffisament de personnes en suisse et combien de
    personnes sont étrangères.
